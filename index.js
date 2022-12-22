@@ -78,4 +78,3 @@ function restartGame(){
     cells.forEach(cell => cell.textContent = "");
     running = true;
 }
-
