@@ -61,6 +61,7 @@ function checkWinner(){
     if(roundWon){
         statusText.textContent = `${currentPlayer} wins!`;
         running = false;
+
     }
     else if(!options.includes("")){
         statusText.textContent = `Draw!`;
